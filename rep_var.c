@@ -151,7 +151,7 @@ char *rep_var(char *input, data_shell *datash)
 	status = aux_itoa(datash->status);
 	head = NULL;
 
-	olen = chec_vars(&head, input, status, datash);
+	olen = check_vars(&head, input, status, datash);
 
 	if (head == NULL)
 	{

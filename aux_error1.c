@@ -11,7 +11,7 @@
  */
 char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 {
-	char *illegal_flag
+	char *illegal_flag;
 
 	_strcpy(error, datash->av[0]);
 	_strcat(error, ": ");
